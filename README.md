@@ -4,21 +4,21 @@
 
 **Совместимость:** Revenge Classic, манифест `spec: 3`. Для Revenge Next нужен другой формат.
 
-## Установка из Revenge
+## Установка в Revenge Classic
 
-В **Revenge → Plugins → Repositories** добавьте URL репозитория (обязательно со слешем в конце):
-
-```text
-https://raw.githubusercontent.com/txllthemall/Revenge-NoG/main/
-```
-
-Затем найдите **StreamClean**, установите и включите. Если установленная версия Revenge не принимает raw.githubusercontent.com как источник, используйте GitHub Pages, включив его в **Settings → Pages → Deploy from a branch → main → /(root)**, после чего добавьте:
+В Discord откройте **Revenge → Plugins → Install a plugin** и вставьте **адрес папки** (со слешем в конце):
 
 ```text
-https://txllthemall.github.io/Revenge-NoG/
+https://raw.githubusercontent.com/txllthemall/Revenge-NoG/main/streamclean/
 ```
 
-GitHub Pages требует отдельного включения в настройках репозитория.
+Этот способ использует формат **Vendetta**, поддерживаемый экраном «Install a plugin» в Revenge Classic. Для него требуются файлы `streamclean/manifest.json` и `streamclean/index.js`.
+
+Если менеджер плагинов показывает `storage?.[emitterSymbol] is undefined`, это сбой интерфейса Revenge при подписке на хранилище, а не ошибка загрузки URL. Сначала полностью перезапустите Discord. Если не поможет, сохраните стек вызовов из Details. Не очищайте данные приложения.
+
+Дополнительный каталог `repo.json` и версия `builds/streamclean/` сохранены для нового формата API, но **не являются адресом прямой установки** в старом экране Plugins.
+
+GitHub Pages для прямой установки **не нужен**.
 
 ## Что делает
 
