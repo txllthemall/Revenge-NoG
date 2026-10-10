@@ -1,0 +1,11 @@
+{
+  "name": "StreamClean",
+  "description": "Experimental dark gradient and stream corner removal for Revenge Classic",
+  "authors": [
+    {
+      "name": "txllthemall"
+    }
+  ],
+  "main": "index.js",
+  "hash": "99a314b19fcccd29"
+}
