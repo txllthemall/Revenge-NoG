@@ -1,0 +1,9 @@
+{
+  "$meta": {
+    "name": "StreamClean plugins",
+    "description": "Experimental stream appearance fixes for Revenge Classic"
+  },
+  "streamclean": {
+    "version": "0.1.0"
+  }
+}
