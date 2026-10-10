@@ -1,0 +1,16 @@
+{
+  "id": "streamclean",
+  "spec": 3,
+  "type": "plugin",
+  "version": "0.1.0",
+  "display": {
+    "name": "StreamClean",
+    "description": "Experimental removal of dark gradients and rounded corners from Discord Android streams.",
+    "authors": [
+      {
+        "name": "Community"
+      }
+    ]
+  },
+  "main": "index.js"
+}
